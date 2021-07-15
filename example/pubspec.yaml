@@ -1,0 +1,24 @@
+name: social_share_plugin_example
+description: Demonstrates how to use the social_share_plugin plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+
+  image_picker: ^0.8.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  social_share_plugin:
+    path: ../
+flutter:
+
+  uses-material-design: true
